@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import { movieRouter } from './routes/movieRoutes.js';
+import { cinemaRouter } from './routes/cinemaRoutes.js';
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -10,7 +11,7 @@ app.use(express.json());
 
 // API Routes
 app.use('/api/movies', movieRouter);
-// We will mount cinemaRouter in Feature 2
+app.use('/api/cinemas', cinemaRouter);
 
 // Health check
 app.get('/api/health', (req, res) => {
