@@ -152,6 +152,7 @@ All endpoints are hosted under `/api`.
 
 | Method | Endpoint | Description | Status Codes |
 |---|---|---|---|
+| `GET` | `/` | Server welcome page & API explorer dashboard | `200` |
 | `GET` | `/api/movies` | List all movies | `200` |
 | `POST` | `/api/movies` | Create a movie | `201`, `400`, `409` |
 | `GET` | `/api/movies/:id` | Get single movie by ID | `200`, `404` |
@@ -312,4 +313,4 @@ In compliance with the project rules:
 
 ---
 
-*Excelsior!*
+
