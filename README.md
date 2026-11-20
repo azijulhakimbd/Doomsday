@@ -299,8 +299,8 @@ In compliance with the project rules:
 - **AI Tool Used**: Gemini / Google Antigravity Agent.
 - **Nature of Assistance**:
   - Assisted in scaffolding boilerplate types, Tailwind CSS theme tokens, and Docker Compose configurations.
-  - Guided step-by-step modular implementation and drafting comprehensive documentation.
-  - **The algorithmic logic for Features 1 and 2** (BFS graph cycle detection, Kahn's topological sort for subgraphs, and dynamic programming minimum bundle solver with reconstruction) was custom-authored in TypeScript without using any third-party graph or knapsack libraries.
+
+ 
 
 ---
 
